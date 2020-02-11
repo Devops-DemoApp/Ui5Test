@@ -1,0 +1,30 @@
+{
+  "name": "DemoProjectFiori",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "devDependencies": {
+    "@ui5/cli": "1.7.0",
+    "@sap/ui5-builder-webide-extension": "1.0.9"
+  },
+  "scripts": {
+    "build": "ui5 build --include-task=generateManifestBundle generateCachebusterInfo",
+    "test": "karma start",
+    "lint": "eslint **/*.js -c config.eslintrc -f checkstyle"
+  },
+  "dependencies":{
+    "karma": "*",
+    "karma-cli": "*",
+    "phantomjs": "*",
+    "karma-jasmine": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-junit-reporter":"*",
+    "karma-chrome-launcher":"*",
+    "eslint":"*"
+  },
+  "ui5": {
+    "dependencies": [
+      "@sap/ui5-builder-webide-extension"
+    ]
+  }
+}

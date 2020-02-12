@@ -11,6 +11,6 @@ sap.ui.define([
     |          ^
   2 |     if (i != NaN) {
   3 |         return i ++
-  4 |     } else {
+  4 |     } else {   
 	});
 });

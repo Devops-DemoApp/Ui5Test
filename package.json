@@ -9,8 +9,10 @@
   },
   "scripts": {
     "build": "ui5 build --include-task=generateManifestBundle generateCachebusterInfo",
-    "test": "karma start",
-    "lint": "eslint **/*.js -c config.eslintrc -f checkstyle"
+    "test": "npm run lint && npm run karma-ci",
+    "lint": "eslint **/*.js -c config.eslintrc -f checkstyle",
+    "karma": "karma start",
+    "karma-ci": " karma start karma-ci.conf.js"
   },
   "dependencies":{
     "karma": "*",

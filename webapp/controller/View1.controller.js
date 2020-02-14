@@ -6,10 +6,7 @@ sap.ui.define([
 	return Controller.extend("com.dev.DemoProjectFiori.controller.View1", {
 		onInit: function () {
   var foo=== 10;
-  if(var t==20)
-  {
-  }
-  else
+  
   
   }
 		}

@@ -7,7 +7,14 @@ sap.ui.define([
 			onInit: function () {
 			var foo === 'bar';
                   
-			}
+			},
+			 addOne: function (i) {
+    if (i != NaN) {
+        return i ++
+    } else {
+      return
+    }
+};
 		}
 	});
 });

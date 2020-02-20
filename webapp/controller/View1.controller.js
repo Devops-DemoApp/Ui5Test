@@ -4,11 +4,10 @@ sap.ui.define([
 	"use strict";
 
 	return Controller.extend("com.dev.DemoProjectFiori.controller.View1", {
-		onInit: function () {
-  var foo=== 10;
-  
-  
-  }
+			onInit: function () {
+			var foo === 'bar';
+                  
+			}
 		}
 	});
 });

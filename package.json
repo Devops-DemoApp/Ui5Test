@@ -7,12 +7,13 @@
    "karma": "~0.12",
     "karma-jenkins-reporter": "~0.1"
   },
-   "eslintConfig": {
-        "plugins": ["example"],
+  "eslintConfig": {
         "env": {
-            "example/custom": true
+            "browser": true,
+            "node": true
         }
-    },
+  },
+   
   "scripts": {
     "build": "ui5 build --include-task=generateManifestBundle generateCachebusterInfo",
     "test": "npm run lint && npm run karma-ci",

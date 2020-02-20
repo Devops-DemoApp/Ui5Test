@@ -1,4 +1,7 @@
 {
+
+
+"extends": "eslint:recommended"
 	"rules": {
 		"space-before-blocks": [0, "always"],
 		"valid-jsdoc": [0, {

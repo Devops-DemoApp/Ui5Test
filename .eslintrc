@@ -1,8 +1,8 @@
 {
 
 
-"extends": "eslint:recommended"
-	"rules": {
+
+	"rules ":  {
 		"space-before-blocks": [0, "always"],
 		"valid-jsdoc": [0, {
 			"requireReturn": false
@@ -353,7 +353,7 @@
 		"travel": true
 	},
 	"env": {
-		"node": false,
+		"node": true,
 		"browser": true,
 		"amd": true,
 		"mocha": true,

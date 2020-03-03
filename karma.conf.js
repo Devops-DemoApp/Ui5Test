@@ -1,30 +1,13 @@
-module.exports = function (config) {
+module.exports = function(config) {
+  config.set({
 
-	config.set({
+    frameworks: ["ui5"],
 
-		logLevel: config.LOG_INFO,
+    ui5: {
+      url: "https://openui5.hana.ondemand.com"
+    },
 
-		browserConsoleLogOptions: {
-			level: 'info'
-		},
+    browsers: ["Chrome"]
 
-		frameworks: ['ui5'],
-
-		ui5: {
-			url: 'http://localhost:5000',
-			mode: 'html',
-			testpage: 'webapp/test/integration/opaTests.qunit.html'
-		},
-
-		browsers: ['ChromeHeadless'],
-
-		concurrency: 1,
-
-		singleRun: true,
-
-		browserNoActivityTimeout: 600000,
-
-		proxyValidateSSL: false
-
-	});
+  });
 };

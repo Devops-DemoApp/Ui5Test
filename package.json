@@ -4,8 +4,10 @@
   "description": "",
   "private": true,
   "devDependencies": {
-   "karma": "~4.4.1",
-    "karma-jenkins-reporter": "~0.1"
+   
+    "karma": "^0.13.0",
+  "karma-chrome-launcher": "^0.23",      
+  "karma-jasmine": "0.3.8"
   },
   "eslintConfig": {
         "env": {

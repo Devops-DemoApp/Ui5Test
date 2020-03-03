@@ -4,13 +4,8 @@
   "description": "",
   "private": true,
   "devDependencies": {
-   
-    
-     "grunt-karma": "^3.0.2",
-    "karma": "^4.3.0",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-ui5": "^1.0.1",
-    "karma-webdriver-launcher": "^1.0.5"
+   "karma": "~4.4.1",
+    "karma-jenkins-reporter": "~0.1"
   },
   "eslintConfig": {
         "env": {
